@@ -1,8 +1,10 @@
 app-admin/sudo
+app-benchmarks/geekbench
 app-editors/neovim
 app-eselect/eselect-repository
-app-laptop/tlp
+app-laptop/laptop-mode-tools
 app-misc/diff-so-fancy
+app-misc/figlet
 app-misc/grc
 app-office/libreoffice
 app-portage/genlop
@@ -18,6 +20,7 @@ dev-python/pip
 dev-python/psutil
 dev-python/python-xlib
 dev-util/checkbashisms
+dev-util/platform-tools
 dev-vcs/git
 games-action/multimc
 lxde-base/lxappearance
@@ -41,9 +44,12 @@ net-wireless/wireless-regdb
 sys-apps/bat
 sys-apps/exa
 sys-apps/fd
+sys-apps/fwts
+sys-apps/fwupd
 sys-apps/irqbalance
 sys-apps/nvme-cli
 sys-auth/nss-mdns
+sys-auth/rtkit
 sys-block/parted
 sys-boot/efibootmgr
 sys-devel/gcc
@@ -60,6 +66,7 @@ sys-power/thermald
 sys-process/bottom
 sys-process/nvtop
 sys-process/systemd-cron
+virtual/jre:1.8
 www-client/firefox
 www-misc/profile-sync-daemon
 x11-apps/setxkbmap
@@ -70,12 +77,16 @@ x11-libs/xcb-util-cursor
 x11-misc/arandr
 x11-misc/autorandr
 x11-misc/devour
+x11-misc/dmenu
 x11-misc/optimus-manager
 x11-misc/picom
+x11-misc/prime-run
 x11-misc/qt5ct
 x11-misc/rofi
 x11-misc/xclip
 x11-misc/xdg-user-dirs
 x11-misc/xdotool
 x11-terms/st
+x11-wm/awesome
 x11-wm/qtile
+x11-wm/spectrwm

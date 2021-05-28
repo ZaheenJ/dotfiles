@@ -6,3 +6,4 @@
 >=net-im/discord-bin-0.0.14 *
 >=net-im/teams-1.4.00.7556 *
 >=sys-power/dptfxtract-1.4.3 *
+>=app-benchmarks/geekbench-5.4.1 *

@@ -57,7 +57,7 @@ ZLE_RPROMPT_INDENT=0
 source ~/.shellConf.zsh
 export MANPAGER="nvim -c 'set ft=man'"
 # export EDITOR="nvim"
-export PATH=$PATH:~/.local/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+export PATH=$PATH:~/.local/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/opt/platform-tools/
 export KEYTIMEOUT=1
 
 zinit wait lucid for \

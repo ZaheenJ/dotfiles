@@ -4,8 +4,10 @@ autorandr -c
 ~/.fehbg
 picom -b --experimental-backends
 xset r rate 200 50
-# noisetorch -i
+noisetorch -i
 setxkbmap -option caps:swapescape -variant altgr-intl
-dbus-launch --exit-with-session qtile
-#spectrwm
+qtile
+# awesome
+# dwm
+# spectrwm
 sudo prime-switch
