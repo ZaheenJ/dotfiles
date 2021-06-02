@@ -6,7 +6,7 @@ picom -b --experimental-backends
 xset r rate 200 50
 noisetorch -i
 setxkbmap -option caps:swapescape -variant altgr-intl
-qtile
+qtile start
 # awesome
 # dwm
 # spectrwm
