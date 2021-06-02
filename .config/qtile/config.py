@@ -208,11 +208,11 @@ for m in range(num_monitors):
                     widget.CheckUpdates(
                        background = colors[3],
                        foreground = colors[2],
-                       distro = "Arch_checkupdates",
+                       distro = "Gentoo",
                        display_format = "ﮮ {updates}",
                        no_update_string = "ﮮ 0",
                        update_interval = 600,
-                       execute = "%s -e paru" % terminal,
+                       execute = "%s -e sudo emerge -auDN @world" % terminal,
                        fontsize = 14,
                     ),
                     widget.TextBox(
