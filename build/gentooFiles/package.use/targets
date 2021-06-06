@@ -2,3 +2,4 @@
 */* LUA_SINGLE_TARGET: -* luajit 
 # */* PYTHON_TARGETS: -* python3_9
 */* LLVM_TARGETS: -* BPF X86
+*/* FONT_TYPES: otf

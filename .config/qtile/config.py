@@ -35,7 +35,7 @@ import os
 import subprocess
 
 mod = "mod4"
-terminal = "alacritty"
+terminal = "st"
 
 keys = [
     Key([mod], "j", lazy.layout.down()),
@@ -124,11 +124,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
-colors = [["#000000", "#000000"], # black
-          ["#0000ff", "#0000ff"], # blue
-          ["#ffffff", "#ffffff"], # white
-          ["#222222", "#222222"], # dark gray
-          ]
+colors = ["#000000", "#0000ff", "#ffffff", "#222222"]
 
 screens = []
 
@@ -185,6 +181,7 @@ for m in range(num_monitors):
                        background = colors[0],
                        foreground = colors[1],
                        padding = 0,
+                       fontsize=18,
                        ),
 #                      widget.TextBox(
                        #  text = "墳",
