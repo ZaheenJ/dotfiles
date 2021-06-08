@@ -5,7 +5,11 @@ return require('packer').startup(function()
 
 	-- Statusbar, required nvim-web-devicons for cool icons
 	use {
-		'hoob3rt/lualine.nvim',
+		'glepnir/galaxyline.nvim',
+		branch = 'main',
+		-- your statusline
+		-- config = function() require'statusbar' end,
+		-- some optional icons
 		requires = {'kyazdani42/nvim-web-devicons', opt = true}
 	}
 
