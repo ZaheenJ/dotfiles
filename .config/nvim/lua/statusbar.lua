@@ -72,6 +72,16 @@ gls.left[3] = {
 }
 
 gls.left[4] = {
+	FileType = {
+		provider = 'FileTypeName',
+		condition = condition.buffer_not_empty,
+		separator = ' ',
+		separator_highlight = {'NONE',colors.bg},
+		highlight = {fileColor,colors.bg},
+	}
+}
+
+gls.left[5] = {
 	FileIcon = {
 		provider = 'FileIcon',
 		condition = condition.buffer_not_empty,
@@ -79,7 +89,7 @@ gls.left[4] = {
 	}
 }
 
-gls.left[5] = {
+gls.left[6] = {
 	FileName = {
 		provider = 'FileName',
 		condition = condition.buffer_not_empty,
@@ -158,13 +168,13 @@ gls.right[7] = {
 }
 
 gls.right[8] = {
-  GitIcon = {
-    provider = function() return '  ' end,
-    condition = condition.check_git_workspace,
-    separator = ' ',
-    separator_highlight = {'NONE',colors.bg},
-    highlight = {colors.orange,colors.bg,},
-  }
+	GitIcon = {
+		provider = function() return '  ' end,
+		condition = condition.check_git_workspace,
+		separator = ' ',
+		separator_highlight = {'NONE',colors.bg},
+		highlight = {colors.orange,colors.bg,},
+	}
 }
 
 gls.right[9] = {

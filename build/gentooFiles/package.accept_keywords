@@ -1,3 +1,2 @@
 app-editors/neovim **
 x11-misc/picom **
-media-libs/libplacebo -* amd64 # libplacebo-2.72.2 fails to compile

@@ -1,8 +1,8 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.12.9-gentoo Kernel Configuration
+# Linux/x86 5.12.10-gentoo Kernel Configuration
 #
-CONFIG_CC_VERSION_TEXT="gcc (Gentoo 11.1.0 p1) 11.1.0"
+CONFIG_CC_VERSION_TEXT="gcc (Gentoo 11.1.0-r1 p2) 11.1.0"
 CONFIG_CC_IS_GCC=y
 CONFIG_GCC_VERSION=110100
 CONFIG_CLANG_VERSION=0
@@ -472,7 +472,7 @@ CONFIG_HOTPLUG_CPU=y
 CONFIG_LEGACY_VSYSCALL_XONLY=y
 # CONFIG_LEGACY_VSYSCALL_NONE is not set
 CONFIG_CMDLINE_BOOL=y
-CONFIG_CMDLINE="root=\"PARTLABEL=Gentoo\" rootflags=subvol=@ nvidia-drm.modeset=1 i8042.unlock=1 systemd.gpt_auto=0 quiet loglevel=3 vga=current udev.log_level=3"
+CONFIG_CMDLINE="root=\"PARTLABEL=Gentoo\" rootflags=subvol=@ resume=\"PARTLABEL=Swap\" nvidia-drm.modeset=1 i8042.unlock=1 systemd.gpt_auto=0 quiet loglevel=3 vga=current udev.log_level=3"
 # CONFIG_CMDLINE_OVERRIDE is not set
 CONFIG_MODIFY_LDT_SYSCALL=y
 CONFIG_HAVE_LIVEPATCH=y
@@ -495,7 +495,7 @@ CONFIG_SUSPEND_FREEZER=y
 CONFIG_HIBERNATE_CALLBACKS=y
 CONFIG_HIBERNATION=y
 CONFIG_HIBERNATION_SNAPSHOT_DEV=y
-CONFIG_PM_STD_PARTITION="\"PARTLABEL=Swap\""
+CONFIG_PM_STD_PARTITION=""
 CONFIG_PM_SLEEP=y
 CONFIG_PM_SLEEP_SMP=y
 CONFIG_PM_AUTOSLEEP=y
@@ -1411,10 +1411,10 @@ CONFIG_PCI_PRI=y
 CONFIG_PCI_PASID=y
 CONFIG_PCI_P2PDMA=y
 CONFIG_PCI_LABEL=y
-CONFIG_PCIE_BUS_TUNE_OFF=y
+# CONFIG_PCIE_BUS_TUNE_OFF is not set
 # CONFIG_PCIE_BUS_DEFAULT is not set
 # CONFIG_PCIE_BUS_SAFE is not set
-# CONFIG_PCIE_BUS_PERFORMANCE is not set
+CONFIG_PCIE_BUS_PERFORMANCE=y
 # CONFIG_PCIE_BUS_PEER2PEER is not set
 CONFIG_HOTPLUG_PCI=y
 CONFIG_HOTPLUG_PCI_ACPI=y
@@ -5667,4 +5667,15 @@ CONFIG_GENTOO_LINUX_PORTAGE=y
 # CONFIG_GENTOO_LINUX_INIT_SCRIPT is not set
 CONFIG_GENTOO_LINUX_INIT_SYSTEMD=y
 # end of Support for init systems, system and service managers
+
+#
+# Enable Kernel Self Protection Project Recommendations
+#
+# CONFIG_GENTOO_KERNEL_SELF_PROTECTION is not set
+
+#
+# Architecture Specific Self Protection Project Recommendations
+#
+# end of Architecture Specific Self Protection Project Recommendations
+# end of Enable Kernel Self Protection Project Recommendations
 # end of Gentoo Linux

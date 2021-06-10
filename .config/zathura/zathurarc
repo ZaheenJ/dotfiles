@@ -3,7 +3,7 @@ set default-fg rgba(0,0,255,1.0)
 set recolor-lightcolor rgba(0,0,0,0)
 set recolor true
 set selection-clipboard clipboard
-set font Iosevka Custom
+set font "Iosevka\ Custom regular 10"
 set statusbar-bg rgba(0,0,0,0.1)
 set statusbar-fg rgba(0,0,255,1.0)
 set inputbar-bg rgba(0,0,0,0.1)

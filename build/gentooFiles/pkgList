@@ -1,5 +1,6 @@
 app-admin/sudo
 app-benchmarks/geekbench
+app-crypt/seahorse
 app-editors/neovim
 app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
