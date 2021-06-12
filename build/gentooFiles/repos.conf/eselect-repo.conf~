@@ -36,7 +36,4 @@ location = /var/db/repos/alxu
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/alxu.git
 
-[4nykey]
-location = /var/db/repos/4nykey
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/4nykey.git
+

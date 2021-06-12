@@ -90,7 +90,6 @@ x11-misc/autorandr
 x11-misc/devour
 x11-misc/dmenu
 x11-misc/libinput-gestures
-x11-misc/optimus-manager
 x11-misc/picom
 x11-misc/prime-run
 x11-misc/qt5ct
