@@ -1,4 +1,5 @@
-prime-offload
+xrandr --setprovideroutputsource NVIDIA-G0 modesetting
+xrandr --auto
 autorandr -c
 # nvidia-force-comp-pipeline
 ~/.fehbg
@@ -10,4 +11,3 @@ qtile start
 # awesome
 # dwm
 # spectrwm
-sudo prime-switch
