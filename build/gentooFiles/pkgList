@@ -45,6 +45,7 @@ net-im/skypeforlinux
 net-misc/chrony
 net-misc/networkmanager
 net-misc/youtube-dl
+net-p2p/rtorrent
 net-print/hplip
 net-wireless/bluez
 net-wireless/wireless-regdb
@@ -53,6 +54,7 @@ sys-apps/exa
 sys-apps/fd
 sys-apps/fwts
 sys-apps/fwupd
+sys-apps/fwupd-efi
 sys-apps/gptfdisk
 sys-apps/irqbalance
 sys-apps/nvme-cli

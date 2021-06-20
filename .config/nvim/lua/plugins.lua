@@ -144,13 +144,26 @@ return require('packer').startup(function()
 	} ]]
 
 	-- Automagically create pairs
-	use {
+	--[[ use {
 		'windwp/nvim-autopairs',
 		config = require('nvim-autopairs').setup({
 			check_ts = true,
 		})
-	}
+	} ]]
 	-- Create or delete pairs with keybinds
+	use {
+		'steelsojka/pears.nvim',
+		config = 
+			require "pears".setup(function(conf)
+				conf.on_enter(function(pears_handle)
+					if vim.fn.pumvisible() == 1 and vim.fn.complete_info().selected ~= -1 then
+						return vim.fn["compe#confirm"]("<CR>")
+					else
+						pears_handle()
+					end
+				end)
+			end)
+	}
 	use {
 		'blackCauldron7/surround.nvim',
 		config = require 'surround'.setup{}

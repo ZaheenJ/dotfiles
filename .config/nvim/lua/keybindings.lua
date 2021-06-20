@@ -79,12 +79,10 @@ bmap(bufnr, 'n', ']e', '<cmd>lua require\'lspsaga.diagnostic\'.lsp_jump_diagnost
 bmap(bufnr, 'n', '<leader>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
 bmap(bufnr, 'n', 'gh', '<cmd>lua require\'lspsaga.provider\'.lsp_finder()<CR>', opts)
 
-
-local npairs = require('nvim-autopairs')
-local Rule = require('nvim-autopairs.rule')
+-- local npairs = require('nvim-autopairs')
 
 -- skip it, if you use another global object
-_G.MUtils= {}
+--[[ _G.MUtils= {}
 
 vim.g.completion_confirm_key = ""
 MUtils.completion_confirm=function()
@@ -100,4 +98,4 @@ MUtils.completion_confirm=function()
 end
 
 
-map('i' , '<CR>','v:lua.MUtils.completion_confirm()', {expr = true , noremap = true})
+map('i' , '<CR>','v:lua.MUtils.completion_confirm()', {expr = true , noremap = true}) ]]
