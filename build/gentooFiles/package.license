@@ -1,9 +1,0 @@
->=sys-firmware/intel-microcode-20210216_p20210514 *
->=sys-kernel/linux-firmware-20210511 *
->=x11-drivers/nvidia-drivers-460.67 *
->=net-im/skypeforlinux-8.69.0.77 *
-# >=net-im/zoom-5.6.16775.0418 *
->=net-im/discord-bin-0.0.14 *
->=net-im/teams-1.4.00.7556 *
->=sys-power/dptfxtract-1.4.3 *
->=app-benchmarks/geekbench-5.4.1 *

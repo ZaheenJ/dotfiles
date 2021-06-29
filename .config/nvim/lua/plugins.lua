@@ -64,10 +64,10 @@ return require('packer').startup(function()
 	use 'gentoo/gentoo-syntax'
 
 	-- Visualize indentation
-	--[[ use {
+	use {
 		"lukas-reineke/indent-blankline.nvim",
 		branch = "lua"
-	} ]]
+	}
 
 	-- Easily comment and uncomment
 	use 'b3nj5m1n/kommentary'

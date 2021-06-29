@@ -52,8 +52,12 @@ o.title = true
 -- autocmd BufRead,BufNewFile *.h,*.c set filetype=c
 -- cmd('autocmd! BufRead,BufNewFile * if &ft == "h" | set ft=c | endif')
 
--- Visualize indentation
+-- Settings for indent visualization character
 g.indent_blankline_char = "│"
+-- g.indent_blankline_color_gui = '#444444'
+-- cmd('highlight IndentBlanklineSpaceChar guifg=#444444 gui=nocombine')
+g.indent_blankline_use_treesitter = true
+g.indent_blankline_show_current_context = true
 
 -- Needed for nvim-compe
 o.completeopt = "menuone,noselect"
