@@ -65,6 +65,9 @@ o.smartcase = true
 -- Signs will appear in number column
 o.signcolumn="number"
 
+-- Allow switching through buffers without saving
+o.hidden = true
+
 -- Set fonts for GUI vim
 o.guifont="Iosevka\\ Custom:h16,Symbols\\ Nerd\\ Font:h16"
 

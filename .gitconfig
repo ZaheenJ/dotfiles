@@ -24,3 +24,7 @@
 [user]
 	email = zaheen.jamil@gmail.com
 	name = ZaheenJ
+[init]
+	defaultBranch = main
+[push]
+	default = current

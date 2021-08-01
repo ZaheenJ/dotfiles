@@ -1,1 +1,2 @@
 x11-base/xorg-server xephyr kdrive
+x11-apps/mesa-progs egl

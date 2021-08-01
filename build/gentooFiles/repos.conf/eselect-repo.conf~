@@ -1,10 +1,5 @@
 # created by eselect-repo
 
-[gig]
-location = /var/db/repos/gig
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/gig.git
-
 [guru]
 location = /var/db/repos/guru
 sync-type = git
@@ -14,11 +9,6 @@ sync-uri = https://github.com/gentoo-mirror/guru.git
 location = /var/db/repos/elopez-r-overlay
 sync-type = git
 sync-uri = https://github.com/gentoo-mirror/elopez-r-overlay.git
-
-[flow]
-location = /var/db/repos/flow
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/flow.git
 
 [crocket-overlay]
 location = /var/db/repos/crocket-overlay
@@ -37,3 +27,6 @@ sync-type = git
 sync-uri = https://github.com/gentoo-mirror/alxu.git
 
 
+
+[localrepo]
+location = /var/db/repos/localrepo
