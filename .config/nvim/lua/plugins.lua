@@ -81,7 +81,7 @@ return require('packer').startup(function()
 	-- LSP, completion, and snippets
 	use {
 		'neovim/nvim-lspconfig',
-		config = require'lspconfig'.clangd.setup{} and require'lspconfig'.jedi_language_server.setup{}
+		config = require'lspconfig'.clangd.setup{} and require'lspconfig'.jedi_language_server.setup{} and require'lspconfig'.dartls.setup{}
 	}
 	use {
 		'hrsh7th/nvim-compe',

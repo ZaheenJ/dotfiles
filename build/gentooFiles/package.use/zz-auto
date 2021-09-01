@@ -54,3 +54,24 @@
 # required by net-im/nheko-0.8.2-r1::guru
 # required by nheko (argument)
 >=dev-qt/qtmultimedia-5.15.2 qml gstreamer
+# required by dev-util/android-sdk-update-manager-24.4.1-r2::gentoo
+# required by android-sdk-update-manager (argument)
+>=dev-java/swt-4.10-r2 cairo
+# required by dev-util/android-sdk-update-manager-24.4.1-r2::gentoo
+# required by android-sdk-update-manager (argument)
+>=sys-libs/ncurses-compat-6.2 abi_x86_32
+# required by dev-util/android-sdk-update-manager-24.4.1-r2::gentoo
+# required by android-sdk-update-manager (argument)
+>=sys-libs/zlib-1.2.11-r4 abi_x86_32
+# required by media-sound/audacity-2.4.2-r1::gentoo
+# required by audacity (argument)
+>=media-libs/portaudio-19.07.00-r2 alsa
+# required by app-emulation/libvirt-7.5.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-3.2.0::gentoo
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.85 script
+# required by app-emulation/virt-manager-3.2.0::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=net-misc/spice-gtk-0.39 usbredir

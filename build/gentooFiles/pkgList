@@ -2,6 +2,8 @@ app-admin/sudo
 app-benchmarks/geekbench
 app-crypt/seahorse
 app-editors/neovim
+app-emulation/virt-manager
+app-emulation/virt-viewer
 app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
 app-misc/diff-so-fancy
@@ -22,9 +24,9 @@ dev-java/openjdk
 dev-java/openjdk:8
 dev-libs/libinput
 dev-python/jedi
+dev-util/android-tools
 dev-util/android-udev-rules
 dev-util/ltrace
-dev-util/platform-tools
 dev-util/strace
 dev-vcs/git
 games-action/multimc
@@ -33,6 +35,7 @@ media-fonts/nerd-fonts-symbols
 media-gfx/feh
 media-gfx/flameshot
 media-sound/alsa-utils
+media-sound/audacity
 media-sound/cmus
 media-sound/pulsemixer
 media-video/ffmpeg
@@ -43,8 +46,10 @@ net-im/discord-bin
 net-im/nheko
 net-im/skypeforlinux
 net-im/telegram-desktop
+net-misc/bridge-utils
 net-misc/chrony
 net-misc/networkmanager
+net-misc/vde
 net-misc/youtube-dl
 net-p2p/transmission
 net-print/hplip

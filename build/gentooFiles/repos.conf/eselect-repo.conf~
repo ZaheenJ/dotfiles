@@ -16,17 +16,22 @@ sync-type = git
 sync-uri = https://github.com/gentoo-mirror/crocket-overlay.git
 
 
-[spikyatlinux]
-location = /var/db/repos/spikyatlinux
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/spikyatlinux.git
-
-[alxu]
-location = /var/db/repos/alxu
-sync-type = git
-sync-uri = https://github.com/gentoo-mirror/alxu.git
-
 
 
 [localrepo]
 location = /var/db/repos/localrepo
+
+[2xsaiko]
+location = /var/db/repos/2xsaiko
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/2xsaiko.git
+
+[nymphos]
+location = /var/db/repos/nymphos
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/nymphos.git
+
+[average]
+location = /var/db/repos/average
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/average.git
